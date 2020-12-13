@@ -1,0 +1,109 @@
+{
+    "name": "PlayerInputDevice",
+    "maps": [
+        {
+            "name": "Player1",
+            "id": "d6972f93-4cb1-4c86-ae32-67497c2e4b6c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "66df325d-5901-4d89-9022-9f41d34f49f9",
+                    "expectedControlType": "Stick",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "079aeb07-8f33-48e2-823d-0528f4ba9861",
+                    "expectedControlType": "Stick",
+                    "processors": "StickDeadzone(min=0.2,max=0.8)",
+                    "interactions": ""
+                },
+                {
+                    "name": "PunchRight",
+                    "type": "Button",
+                    "id": "cd970ee8-dd21-4047-9c04-001946fdbdbd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "PunchLeft",
+                    "type": "Button",
+                    "id": "7e017ed4-03ac-4fb6-9452-69d819fdaa2f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "Dive",
+                    "type": "Button",
+                    "id": "64ee62c6-4152-4d74-9196-d04f54f135f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1dacf2ea-0527-471b-99b9-3604f3e147a0",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4bbfe9f2-2997-4f12-9c82-f9917fd9a10b",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d8d9761-5272-4f49-bbbe-13a39334742e",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eddc481e-6e1a-41ea-9d6f-f0fd141d417f",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PunchLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a02689b8-1f89-44e6-876f-1e2a7a8da144",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dive",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
